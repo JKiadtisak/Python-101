@@ -1,5 +1,4 @@
-Python 3.11.2 (tags/v3.11.2:878ead1, Feb  7 2023, 16:38:35) [MSC v.1934 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
+
 import turtle
 tao = turtle.Pen()
 tao.shape('turtle')
@@ -39,15 +38,6 @@ for i in range (60) :
     tao.circle(-3*i)
     tao.right(10)
 
-    
-for i in range (60) :
-   tao.pencolor('yellow')
-    tao.circle(3*i)
-    tao.circle(-3*i)
-    tao.right(10)
-    
-SyntaxError: unexpected indent
-
 for i in range (60) :
     tao.pencolor("yellow")
     tao.circle(3*i)
@@ -76,15 +66,7 @@ for i in range (60) :
 ...     tao.circle(2*i)
 ...     tao.right(15)
 ... 
-...     
->>> for i in range (60) :
-...    tao.pencolor("yellow")
-...     tao.circle(3*i)
-...     tao.circle(-3*i)
-...     tao.right(10)
-...     
-SyntaxError: unexpected indent
->>> 
+...      
 >>> for i in range (60) :
 ...     tao.pencolor("yellow")
 ...     tao.circle(3*i)
